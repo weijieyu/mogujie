@@ -91,7 +91,7 @@ yu.app.primary = function () {//轮播图
 		change()
 		auto()
 	})
-	$('#figure span').on('mouseover',function(){//移入移除小圆点
+	$('#figure span').on('mouseover',function(){//移入移出小圆点
 		var lNum = $(this).index()
 		clearInterval(timer)
 		$obj.eq(iNow).attr('class', 'Nowshow').fadeOut(fadeT)
